@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/videos/videos",
+    "pages/find/find",
+    "pages/index/images",
+    "pages/news/news",
+    "pages/me/me"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#e6e6e6",
+    "navigationBarTitleText": "简易微博模仿",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#515151",
+    "selectedColor": "#515151",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "pages/index/images/index2.png",
+        "iconPath": "pages/index/images/index.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "pages/index/images/videos2.png",
+        "iconPath": "pages/index/images/videos.png",
+        "pagePath": "pages/videos/videos",
+        "text": "视频"
+      },
+      {
+        "selectedIconPath": "pages/index/images/find2.png",
+        "iconPath": "pages/index/images/find.png",
+        "pagePath": "pages/find/find",
+        "text": "发现"
+      },
+      {
+        "selectedIconPath": "pages/index/images/news2.png",
+        "iconPath": "pages/index/images/news.png",
+        "pagePath": "pages/news/news",
+        "text": "消息"
+      },
+      {
+        "selectedIconPath": "pages/index/images/me2.png",
+        "iconPath": "pages/index/images/me.png",
+        "pagePath": "pages/me/me",
+        "text": "我"
+      }
+    ]
+  }
+}

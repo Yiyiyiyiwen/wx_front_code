@@ -1,0 +1,45 @@
+<!--index.wxml-->
+<view style='position:relative;'>
+  <view wx:for="{{list}}" wx:key="id">
+    <a class="weui_cell" href="javascript:;">
+      <view class='zong'>
+        <view style='margin-left:5px;margin-top:5px;'>
+          <view class='tou1'>
+            <image class='tou2' src='{{item.tupian}}'>
+            </image>
+          </view>
+          <view class='name'>
+            {{item.name}}
+          </view>
+          <view class='funame'>
+            {{item.funame}}
+          </view>
+          <image class='jiantouqian' src='{{item.jiantoushang}}'></image>
+          <a href="javascript:;">
+            <image class='xialajiantou' src='{{item.jiantou}}'></image>
+          </a>
+        </view>
+        <view class='duanluo'>
+          <view class='words'>{{item.words}}</view>
+          <image class='datu' src='{{item.datu}}'></image>
+        </view>
+        <view class='container'>
+          <view class='fengexian'></view>
+        </view>
+        <a href="javascript:;">
+          <image class='xiamiantu1' src='images/exchange.png'></image>
+          <view class='xiamianzi1'>{{item.xiamianzi1}}</view>
+        </a>
+        <a href="javascript:;">
+          <image class='xiamiantu2' src='images/commit.png'></image>
+          <view class='xiamianzi2'>{{item.xiamianzi2}}</view>
+        </a>
+        <a href="javascript:;">
+          <image class='xiamiantu3' src='images/zan.png'></image>
+          <view class='xiamianzi3'>{{item.xiamianzi3}}</view>
+        </a>
+        <view class='fengexian2'></view>
+      </view>
+    </a>
+  </view>
+</view>

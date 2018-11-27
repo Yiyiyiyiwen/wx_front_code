@@ -1,0 +1,170 @@
+/**index.wxss**/
+@import "../../weui.wxss";
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.zong {
+  position: relative;
+  width: 100%;
+  height: 360px;
+}
+
+.name {
+  position: absolute;
+  margin-left: 60px;
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: '微软雅黑';
+  color: #515151;
+}
+
+.funame {
+  position: absolute;
+  margin-left: 60px;
+  margin-top: 25px;
+  font-size: 10px;
+  font-weight: normal;
+  font-family: '微软雅黑';
+  color: #bfbfbf;
+}
+
+.tou1 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #d7d7d7;
+}
+
+.tou2 {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  margin-left: 2px;
+  margin-top: 2px;
+}
+
+.jiantouqian {
+  position: absolute;
+  width: 30px;
+  height: 25px;
+  margin-left: 350px;
+}
+
+.xialajiantou {
+  position: absolute;
+  width: 15px;
+  height: 13px;
+  margin-left: 385px;
+  opacity: 0.5;
+  margin-top: 10px;
+}
+
+.duanluo {
+  margin-left: 5%;
+}
+
+.words {
+  position: absolute;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  color: #515151;
+  margin-top: 60px;
+  width: 90%;
+}
+
+.datu {
+  position: absolute;
+  margin-top: 110px;
+  height: 200px;
+  width: 340px;
+}
+
+.fengexian {
+  position: absolute;
+  background-color: #d7d7d7;
+  width: 90%;
+  height: 2px;
+  margin-top: 210px;
+  opacity: 0.6;
+}
+
+.xiamiantu1 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-top: -30px;
+  margin-left: 10%;
+}
+
+.xiamiantu2 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-top: -30px;
+  margin-left: 40%;
+}
+
+.xiamiantu3 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-top: -30px;
+  margin-left: 70%;
+}
+
+.xiamianzi1 {
+  position: absolute;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  color: #515151;
+  width: 90%;
+  margin-top: -30px;
+  margin-left: 70px;
+}
+
+.xiamianzi2 {
+  position: absolute;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  color: #515151;
+  width: 90%;
+  margin-top: -30px;
+  margin-left: 195px;
+}
+
+.xiamianzi3 {
+  position: absolute;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  color: #515151;
+  width: 90%;
+  margin-top: -30px;
+  margin-left: 315px;
+}
+.fengexian2 {
+  position: absolute;
+  background-color: #d7d7d7;
+  width: 100%;
+  height: 1px;
+}
