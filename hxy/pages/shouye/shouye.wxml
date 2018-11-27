@@ -1,0 +1,34 @@
+<!--pages/shouye/shouye.wxml-->
+<view wx:for="{{array}}">
+  <view class='top'>
+  <view class='top-one'>
+    <image class='touxiang' src='{{item.pic}}'></image>
+    </view>
+    <view class='top-two'>
+    <text class='name'>{{item.name}}</text>
+    <view class='top-three'>
+  <text class='small'>{{item.small}}</text>
+  </view>
+   </view>
+  </view>
+  <view class='wordword'>
+  <text class='word'>{{item.word}}</text>
+  </view>
+  <view class='four'>
+    <image class='tu' src='{{item.pic1}}'></image>
+    <view class='five'>
+      <view class='five-one'>
+        <image class='one' src='{{item.zhuan}}'></image>
+        <text class='zhuan'>{{item.zhuanfa}}</text>
+      </view>
+      <view class='five-two'>
+        <image class='one' src='{{item.xiao}}'></image>
+        <text class='zhuan'>{{item.xiaoxi}}</text>
+      </view>
+      <view class='five-three'>
+        <image class='one' src='{{item.zan}}'>}</image>
+        <text class='zhuan'>{{item.dianzan}}</text>
+      </view>
+    </view>
+  </view>
+</view>

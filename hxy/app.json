@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/shouye/shouye",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/faxian/faxian",
+    "pages/wode/wode"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#d0c1aa",
+    "navigationBarTitleText": "微博",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#888",
+    "selectedColor": "#0090ff",
+    "backgroundColor": "#f3e8d7",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/shouye/shouye",
+        "text": "首页",
+        "iconPath": "images/shouye.png",
+        "selectedIconPath": "images/shouye1.png"
+      },
+      {
+        "pagePath": "pages/faxian/faxian",
+        "text": "发现",
+        "iconPath": "images/faxian.png",
+        "selectedIconPath": "images/faxian1.png"
+      },
+      {
+        "pagePath": "pages/wode/wode",
+        "text": "个人中心",
+        "iconPath": "images/wode.png",
+        "selectedIconPath": "images/wode1.png"
+      }
+    ]
+  }
+}
