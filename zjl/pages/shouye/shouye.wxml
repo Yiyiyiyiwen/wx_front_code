@@ -1,0 +1,29 @@
+<!--pages/shouye/shouye.wxml-->
+<view class='top'>
+  <view class='swiper_con' wx:for="{{array}}">
+    <view class='first'>
+      <image src='{{item.pic}}' class='touxiang'></image>
+      <text class='yonghuming'>{{item.yonghuming}}</text>
+      <text class='jianjie'>{{item.jianjie}}</text>
+    </view>
+  </view>
+</view>
+<view>
+  <text>\n\n\n分享图片——欢乐海岸</text>
+</view>
+<image src='/images/huanlehaian.jpg'>
+</image>
+
+
+
+<view class="zongxiangbuju">
+
+    <image class='zhuanfa' style='flex:1;' src='/images/zhuanfa.png'>转发</image>
+  
+ 
+    <image class='zhuanfa' style='flex:1;' src='/images/pinglun.png'>评论</image>
+  
+  
+    <image class='zhuanfa' style='flex:1;' src='/images/dianzan.png'>点赞</image>
+
+</view>

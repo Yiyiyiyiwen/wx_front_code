@@ -1,0 +1,42 @@
+/* pages/shouye/shouye.wxss */
+
+.first {
+  width: 80%;
+  float: left;
+}
+
+.touxiang {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  left: 10px;
+  top: 5px;
+}
+
+.yonghuming {
+  position: absolute;
+  left: 70px;
+  top: 5px;
+  color: black;
+  font-size: 35rpx;
+}
+
+.jianjie {
+  font-size: 10px;
+  color: gray;
+  position: relative;
+  left: 20px;
+}
+
+.zhuanfa {
+  width: 40px;
+  height: 40px;
+}
+
+.flex-wrp {
+  display: flex;
+}
+.zongxiangbujju{
+  display: flex;
+  flex-direction: row;
+}
