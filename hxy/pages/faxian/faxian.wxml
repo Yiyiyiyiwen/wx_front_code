@@ -12,7 +12,7 @@
         </view>
         <label class="weui-search-bar__label" hidden="{{inputShowed}}" bindtap="showInput">
           <icon class="weui-icon-search" type="search" size="14"></icon>
-          <view class="weui-search-bar__text">搜索</view>
+          <view class="weui-search-bar__text">大家都在搜：yamy座位</view>
         </label>
       </view>
       <view class="weui-search-bar__cancel-btn" hidden="{{!inputShowed}}" bindtap="hideInput">取消</view>
@@ -40,4 +40,202 @@
       </navigator>
     </view>
   </view>
+</view>
+<view class='one'>
+  <view class='one-two'>
+    <view>
+      <image src='/images/sousuo.png' class='pic'></image>
+    </view>
+    <view class='one-one'>
+      <view>
+        <text class='text'>微博热搜</text>
+      </view>
+      <view>
+        <text class='text1'>每分钟更新一次</text>
+      </view>
+    </view>
+  </view>
+  <view>
+    <image src='/images/xiangzuo.png' class='pic'></image>
+  </view>
+</view>
+<view class='sou'>
+  <view class='two' wx:for="{{array}}">
+    <view>
+      <text>{{item.t1}}</text>
+      <view class="weui-badge" style="margin-left: 5px;">新</view>
+    </view>
+    <view>
+      <text>{{item.t2}}</text>
+    </view>
+    <view>
+      <text>{{item.t3}}</text>
+    </view>
+    <view>
+      <text>{{item.t4}}</text>
+      <view class="weui-badge" style="margin-left: 5px;">新</view>
+    </view>
+  </view>
+  <view class='three' wx:for="{{array1}}">
+    <view>
+      <text>{{item.t1}}</text>
+    </view>
+    <view>
+      <text>{{item.t2}}</text>
+      <view class="weui-badge" style="margin-left: 5px;">新</view>
+    </view>
+    <view>
+      <text>{{item.t3}}</text>
+    </view>
+    <view>
+      <text class='geng'>{{item.t4}}</text>
+    </view>
+  </view>
+</view>
+<view>
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="true" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="355" height="100" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class='four'>
+  <view class='four-one'>
+    <view>
+      <image src='/images/主题.png' class='tu'></image>
+    </view>
+    <view>
+      <text class='wen'>找人</text>
+    </view>
+  </view>
+  <view class='four-one'>
+    <view>
+      <image src='/images/电话.png' class='tu'></image>
+    </view>
+    <view>
+      <text class='wen'>常州</text>
+    </view>
+  </view>
+  <view class='four-one'>
+    <view>
+      <image src='/images/游戏.png' class='tu'></image>
+    </view>
+    <view>
+      <text class='wen'>直播</text>
+    </view>
+  </view>
+  <view class='four-one'>
+    <view>
+      <image src='/images/文件夹.png' class='tu'></image>
+    </view>
+    <view>
+      <text class='wen'>电影</text>
+    </view>
+  </view>
+  <view class='four-one'>
+    <view>
+      <image src='/images/应用商店.png' class='tu'></image>
+    </view>
+    <view>
+      <text class='wen'>电影</text>
+    </view>
+  </view>
+  <view class='four-one'>
+    <view>
+      <image src='/images/指南针.png' class='tu'></image>
+    </view>
+    <view>
+      <text class='wen'>尤物志</text>
+    </view>
+  </view>
+  <view class='four-one'>
+    <view>
+      <image src='/images/计算器.png' class='tu'></image>
+    </view>
+    <view>
+      <text class='wen'>财经</text>
+    </view>
+  </view>
+  <view class='four-one'>
+    <view>
+      <image src='/images/天气.png' class='tu'></image>
+    </view>
+    <view>
+      <text class='wen'>红人淘</text>
+    </view>
+  </view>
+  <view class='four-one'>
+    <view>
+      <image src='/images/备忘录.png' class='tu'></image>
+    </view>
+    <view>
+      <text class='wen'>音乐</text>
+    </view>
+  </view>
+  <view class='four-one'>
+    <view>
+      <image src='/images/游戏.png' class='tu'></image>
+    </view>
+    <view>
+      <text class='wen'>直播</text>
+    </view>
+  </view>
+  <view class='four-one'>
+    <view>
+      <image src='/images/游戏.png' class='tu'></image>
+    </view>
+    <view>
+      <text class='wen'>直播</text>
+    </view>
+  </view>
+  <view class='four-one'>
+    <view>
+      <image src='/images/游戏.png' class='tu'></image>
+    </view>
+    <view>
+      <text class='wen'>直播</text>
+    </view>
+  </view>
+  <view class='four-one'>
+    <view>
+      <image src='/images/游戏.png' class='tu'></image>
+    </view>
+    <view>
+      <text class='wen'>直播</text>
+    </view>
+  </view>
+  <view class='four-one'>
+    <view>
+      <image src='/images/游戏.png' class='tu'></image>
+    </view>
+    <view>
+      <text class='wen'>直播</text>
+    </view>
+  </view>
+</view>
+<view class='topTabSwiper'>
+  <view class='tab  {{currentData == 0 ? "tabBorer" : ""}}' data-current="0" bindtap='checkCurrent' id='text'>话题</view>
+  <view class='tab  {{currentData == 1 ? "tabBorer" : ""}}' data-current="1" bindtap='checkCurrent' id='text'>榜单</view>
+  <view class='tab  {{currentData == 2? "tabBorer" : ""}}' data-current="2" bindtap='checkCurrent' id='text'>常州</view>
+  <view class='tab  {{currentData == 3? "tabBorer" : ""}}' data-current="3" bindtap='checkCurrent' id='text'>超话</view>
+  <swiper current="{{currentData}}" class='swiper' style="height:200px;" duration="300" bindchange="bindchange">
+    <swiper-item>
+      <view class='swiper_con' wx:for="{{array2}}">
+        <view class='first'>
+          <image src='{{item.pic}}' class='tupian'></image>
+          <text class='biaoti'>{{item.biaoti}}</text>
+          <text class='content'>{{item.content}}</text>
+        </view>
+        <image src='{{item.pic1}}' class='pic1'></image>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view class='swiper_con'>热点技术</view>
+    </swiper-item>
+    <swiper-item>
+      <view class='swiper_con'>关注汇总</view>
+    </swiper-item>
+  </swiper>
 </view>
