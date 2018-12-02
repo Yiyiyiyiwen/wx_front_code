@@ -1,2 +1,40 @@
-<!--pages/faxian/faxian.wxml-->
-<text>pages/faxian/faxian.wxml</text>
+<view class='top'>
+  <image src='/images/search.png' class='searchIcon'></image>
+  <text class='search'>大家都在搜：明明可以不这样的</text>
+</view>
+
+<view class='top21'>
+  <view class='top22'>
+    <image src='/images/resou.png' class='resou' style='margin:0px 5px 0px 0px'></image>
+    <text style='margin:0px 5px 0px 0px'>微博热搜</text>
+    <text class='meifen'>每分钟更新一次</text>
+  </view>
+  <view>
+    <image src='/images/zhankai.png' class='zhankai'></image>
+  </view>
+</view>
+
+
+
+  <view wx:for="{{array}}" class='top3'>
+    <view>
+      <text>{{item.xinwen1}}</text>
+      <image src='{{item.icon1}}' class='icon'></image>
+    </view>
+    <view class='top31'>
+      <text>{{item.xinwen2}}</text>
+      <image src='{{item.icon2}}' class='icon'></image>
+    </view>
+  </view>
+
+  <!--index.wxml-->
+<view class="container">
+    <!--轮播图-->
+  <swiper class="home-swiper" indicator-dots="true" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for-items="{{lunboData}}">
+      <swiper-item>
+        <image src="{{item.imgurl}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>

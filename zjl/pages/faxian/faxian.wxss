@@ -1,1 +1,80 @@
 /* pages/faxian/faxian.wxss */
+
+.search {
+  color: gray;
+  font-size: small;
+}
+
+.searchIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  background: #f5f5f5;
+  justify-content: center;
+  align-content: center;
+}
+
+.resou{
+  width: 24px;
+  height: 24px;
+}
+
+.top21{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top22{
+  display: flex;
+  align-items: center;
+}
+
+.meifen{
+  color: grey;
+  font-size: small;
+}
+.zhankai{
+  width: 17px;
+  height: 17px;
+  transform: rotate(270deg)
+}
+
+.top3{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon{
+  width: 12px;
+  height: 12px;
+}
+.top31{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.gengduoresou{
+  color: #ff8c00;
+  display: flex;
+  align-items: center;
+}
+
+/**index.wxss**/
+
+/*轮播控件*/
+
+.home-swiper {
+  width: 95%;
+  height: 360rpx;
+}
+
+.slide-image {
+  width: 100%;
+  height: 100%;
+}

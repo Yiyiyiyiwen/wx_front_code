@@ -14,16 +14,17 @@
 <image src='/images/huanlehaian.jpg'>
 </image>
 
-
-
 <view class="zongxiangbuju">
-
-    <image class='zhuanfa' style='flex:1;' src='/images/zhuanfa.png'>转发</image>
-  
- 
-    <image class='zhuanfa' style='flex:1;' src='/images/pinglun.png'>评论</image>
-  
-  
-    <image class='zhuanfa' style='flex:1;' src='/images/dianzan.png'>点赞</image>
-
+<view class='zongxiangbuju'>
+   <view> <image class='zhuanfa'  src='/images/zhuanfa.png'></image></view>
+   <view> <text class='zhuanfa'>转发</text></view>
+  </view>
+ <view class='zongxiangbuju'>
+    <view> <image class='zhuanfa'  src='/images/pinglun.png'></image></view>
+    <view> <text class='zhuanfa'>评论</text></view>
+  </view>
+  <view class='zongxiangbuju'>
+    <view> <image class='zhuanfa'  src='/images/dianzan.png'></image></view>
+    <view> <text class='zhuanfa'>点赞</text></view>
+ </view>
 </view>
