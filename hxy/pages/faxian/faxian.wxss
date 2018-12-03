@@ -1,11 +1,102 @@
 /* pages/faxian/faxian.wxss */
-.searchbar-result{
-    margin-top: 0;
-    font-size: 14px;
+
+.searchbar-result {
+  margin-top: 0;
+  font-size: 14px;
 }
-.searchbar-result:before{
-    display: none;
+
+.searchbar-result:before {
+  display: none;
 }
-.weui-cell{
-    padding: 12px 15px 12px 35px;
+
+.weui-cell {
+  padding: 12px 15px 12px 35px;
+}
+
+.pic {
+  height: 40rpx;
+  width: 40rpx;
+}
+
+.one {
+  display: flex;
+  justify-content: space-between;
+  margin: 10rpx;
+  border: 30rpx;
+  border-bottom: 1rpx solid gray;
+  border-top: 1rpx solid gray;
+  padding: 10rpx 10rpx;
+}
+
+.one-one {
+  display: flex;
+  justify-content: center;
+}
+
+.one-two {
+  display: flex;
+  justify-content: space-around;
+}
+
+.text1 {
+  font-size: 20rpx;
+  color: gray;
+}
+
+.sou {
+  display: flex;
+  justify-content: space-between;
+  margin: 20rpx;
+  border: 30rpx;
+  padding: 10rpx 0rpx;
+}
+.two{
+  border-right: 1rpx solid gray
+}
+.geng{
+  color: orange
+}
+.tu{
+  height: 100rpx;
+  width: 100rpx;
+}
+.wen{
+  position: relative;
+  top: -15rpx;
+  left: 15rpx
+}
+.four{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:flex-start ;
+}
+.topTabSwiper{border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; zoom: 1;}
+.tab{float: left;width: 24%; text-align: center;padding: 10rpx 0; }
+.tabBorer{border-bottom: 1px solid rgb(0, 68, 255); color:blue;background-color: white}
+.tupian{
+  height: 50px;
+  width: 50px;
+  position: relative;
+  left: 10px;
+  top: 5px
+}
+.pic1{
+  height: 30px;
+  width: 30px;
+  position: relative;
+  left: 650rpx;
+  top: -100rpx;
+}
+.biaoti{
+  position: absolute;
+  left: 70px;
+  top: 5px;
+  font-size: 35rpx;
+ 
+}
+.content{
+  font-size: 10px;
+ color: gray;
+ position: relative;
+ left: 20px
 }
