@@ -9,7 +9,7 @@ Page({
       pic: "/images/touxiang.jpg",
       yonghuming: "谁才是灰灰灰",
       jianjie: "简介：暂无简介",
-    }]
+    },]
   },
 
   /**

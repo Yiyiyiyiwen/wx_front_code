@@ -1,5 +1,5 @@
 <!--pages/shouye/shouye.wxml-->
-<view class='top'>
+<view >
   <view class='swiper_con' wx:for="{{array}}">
     <view class='first'>
       <image src='{{item.pic}}' class='touxiang'></image>

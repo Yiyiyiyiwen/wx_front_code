@@ -16,20 +16,20 @@
 
 
 
-  <view wx:for="{{array}}" class='top3'>
-    <view>
-      <text>{{item.xinwen1}}</text>
-      <image src='{{item.icon1}}' class='icon'></image>
-    </view>
-    <view class='top31'>
-      <text>{{item.xinwen2}}</text>
-      <image src='{{item.icon2}}' class='icon'></image>
-    </view>
+<view wx:for="{{array}}" class='top3' style='margin:8px 0px 0px 0px'>
+  <view>
+    <text>{{item.xinwen1}}</text>
+    <image src='{{item.icon1}}' class='icon'></image>
   </view>
+  <view class='top31'>
+    <text>{{item.xinwen2}}</text>
+    <image src='{{item.icon2}}' class='icon'></image>
+  </view>
+</view>
 
-  <!--index.wxml-->
+<!--index.wxml-->
 <view class="container">
-    <!--轮播图-->
+  <!--轮播图-->
   <swiper class="home-swiper" indicator-dots="true" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
     <block wx:for-items="{{lunboData}}">
       <swiper-item>
@@ -37,4 +37,84 @@
       </swiper-item>
     </block>
   </swiper>
+</view>
+
+<!--大图标-->
+<view class='bigicon1'>
+  <view wx:for="{{array1}}" class='bigicon2'>
+    <image src='{{item.bigicon}}' style='width: 30px; height: 30px;'></image>
+    <text>{{item.xiabiao}}</text>
+  </view>
+</view>
+
+<!--大图标-->
+<view class='bigicon1'>
+  <view wx:for="{{array2}}" class='bigicon2'>
+    <image src='{{item.bigicon}}' style='width: 30px; height: 30px;'></image>
+    <text>{{item.xiabiao}}</text>
+  </view>
+</view>
+
+
+<!--TAB切换-->
+<view class="body">
+  <view class="nav bc_white">
+    <view class="{{selected?'red':'default'}}" bindtap="selected">话题</view>
+    <view class="{{selected1?'red':'default'}}" bindtap="selected1">榜单</view>
+    <view class="{{selected2?'red':'default'}}" bindtap="selected2">南京</view>
+    <view class="{{selected3?'red':'default'}}" bindtap="selected3">超话</view>
+  </view>
+  <view class="{{selected?'show':'hidden'}}">
+
+    <view class='swiper_con' wx:for="{{array3}}">
+      <view class='first'>
+        <image src='{{item.pic}}' class='touxiang'></image>
+        <text class='yonghuming'>{{item.yonghuming}}</text>
+        <text class='jianjie'>{{item.jianjie}}</text>
+
+      </view>
+    </view>
+
+  </view>
+  <view class="{{selected1?'show':'hidden'}}">
+<view class='swiper_con' wx:for="{{array4}}">
+      <view class='first'>
+        <image src='{{item.pic}}' class='touxiang'></image>
+        <text class='yonghuming'>{{item.yonghuming}}</text>
+        <text class='jianjie'>{{item.jianjie}}</text>
+
+      </view>
+    </view>
+    </view>
+  <view class="{{selected2?'show':'hidden'}}">
+<view class='swiper_con' wx:for="{{array5}}">
+      <view class='first'>
+        <image src='{{item.pic}}' class='touxiang'></image>
+        <text class='yonghuming'>{{item.yonghuming}}</text>
+        <text class='jianjie'>{{item.jianjie}}</text>
+
+      </view>
+    </view>
+  </view>
+  <view class="{{selected3?'show':'hidden'}}">
+<view class='swiper_con' wx:for="{{array6}}">
+      <view class='first'>
+        <image src='{{item.pic}}' class='touxiang'></image>
+        <text class='yonghuming'>{{item.yonghuming}}</text>
+        <text class='jianjie'>{{item.jianjie}}</text>
+
+      </view>
+    </view>
+  </view>
+</view>
+
+
+<view class='top4'>
+  <view class='swiper_con' wx:for="{{array}}">
+    <view class='first'>
+      <image src='{{item.pic}}' class='touxiang'></image>
+      <text class='yonghuming'>{{item.yonghuming}}</text>
+      <text class='jianjie'>{{item.jianjie}}</text>
+    </view>
+  </view>
 </view>
