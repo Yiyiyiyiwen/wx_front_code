@@ -1,9 +1,9 @@
 {
   "pages": [
-    "pages/faxian/faxian",
     "pages/shouye/shouye",
     "pages/index/index",
     "pages/logs/logs",
+    "pages/faxian/faxian",
     "pages/wode/wode"
   ],
   "window": {
