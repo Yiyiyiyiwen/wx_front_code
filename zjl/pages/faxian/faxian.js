@@ -13,7 +13,7 @@ Page({
     array: [{
         xinwen1: "蒋劲夫女友被曝...",
         icon1: "/images/first.png",
-        xinwen2: "像苏有朋和沙溢",
+        xinwen2: "像苏有朋和和苏有朋",
         icon2: "/images/second.png",
       },
       {
@@ -27,7 +27,7 @@ Page({
         xinwen2: "首尔断网",
         icon2: "/images/sixth.png",
       }, {
-        xinwen1: "浙大硕士毕业论文写吸...",
+        xinwen1: "浙大硕士毕...",
         icon1: "/images/seventh.png",
         xinwen2: "更多热搜",
         icon2: "/images/gengduoresou.png",
@@ -35,36 +35,36 @@ Page({
     ],
     array1:[
       {
-        bigicon:"/images/备忘录.png",
-        xiabiao:"备忘录"
+        bigicon:"/images/beiwanglu.png",
+        xiabiao:"备忘"
       }, {
-        bigicon: "/images/电话.png",
+        bigicon: "/images/dianhua.png",
         xiabiao: "电话"
       }, {
-        bigicon: "/images/计算器.png",
-        xiabiao: "计算器"
+        bigicon: "/images/jisuanqi.png",
+        xiabiao: "计算"
       }, {
-        bigicon: "/images/天气.png",
+        bigicon: "/images/tianqi.png",
         xiabiao: "天气"
       }, {
-        bigicon: "/images/文件夹.png",
-        xiabiao: "文件夹"
+        bigicon: "/images/wenjianjia.png",
+        xiabiao: "文件"
       }
     ], array2: [
      {
-        bigicon: "/images/主题.png",
+        bigicon: "/images/zhuti.png",
         xiabiao: "主题"
       }, {
-        bigicon: "/images/应用商店.png",
-        xiabiao: "应用商店"
+        bigicon: "/images/yingyongshangdian.png",
+        xiabiao: "应用"
       }, {
-        bigicon: "/images/游戏.png",
+        bigicon: "/images/youxi.png",
         xiabiao: "游戏"
       }, {
-        bigicon: "/images/指南针.png",
-        xiabiao: "指南针"
+        bigicon: "/images/zhinanzhen.png",
+        xiabiao: "指南"
       }, {
-        bigicon: "/images/主题.png",
+        bigicon: "/images/zhuti.png",
         xiabiao: "主题"
       }
     ], array3: [{

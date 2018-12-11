@@ -1,30 +1,45 @@
 <!--pages/shouye/shouye.wxml-->
-<view >
-  <view class='swiper_con' wx:for="{{array}}">
-    <view class='first'>
-      <image src='{{item.pic}}' class='touxiang'></image>
-      <text class='yonghuming'>{{item.yonghuming}}</text>
-      <text class='jianjie'>{{item.jianjie}}</text>
+<view wx:for="{{array}}">
+  <view>
+    <view class='swiper_con' >
+      <view class='first'>
+        <image src='{{item.pic}}' class='touxiang'></image>
+        <text class='yonghuming'>{{item.yonghuming}}</text>
+        <text class='jianjie'>{{item.jianjie}}</text>
+      </view>
     </view>
   </view>
-</view>
-<view>
-  <text>\n\n\n分享图片——欢乐海岸</text>
-</view>
-<image src='/images/huanlehaian.jpg'>
-</image>
+  <view class='miaosu'>
+    <text>{{item.miaosu}}</text>
+  </view>
 
-<view class="zongxiangbuju">
-<view class='zongxiangbuju'>
-   <view> <image class='zhuanfa'  src='/images/zhuanfa.png'></image></view>
-   <view> <text class='zhuanfa'>转发</text></view>
+  <view class='images'>
+    <image src='{{item.pic1}}' class='images1'></image>
   </view>
- <view class='zongxiangbuju'>
-    <view> <image class='zhuanfa'  src='/images/pinglun.png'></image></view>
-    <view> <text class='zhuanfa'>评论</text></view>
+  <view class="zongxiangbuju">
+    <view class='zongxiangbuju'>
+      <view>
+        <image class='zhuanfa' src='/images/zhuanfa.png'></image>
+      </view>
+      <view>
+        <text class='zhuanfa'>转发</text>
+      </view>
+    </view>
+    <view class='zongxiangbuju'>
+      <view>
+        <image class='zhuanfa' src='/images/pinglun.png'></image>
+      </view>
+      <view>
+        <text class='zhuanfa'>评论</text>
+      </view>
+    </view>
+    <view class='zongxiangbuju'>
+      <view>
+        <image class='zhuanfa' src='/images/dianzan.png'></image>
+      </view>
+      <view>
+        <text class='zhuanfa'>点赞</text>
+      </view>
+    </view>
   </view>
-  <view class='zongxiangbuju'>
-    <view> <image class='zhuanfa'  src='/images/dianzan.png'></image></view>
-    <view> <text class='zhuanfa'>点赞</text></view>
- </view>
 </view>

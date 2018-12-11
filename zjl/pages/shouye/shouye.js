@@ -9,6 +9,14 @@ Page({
       pic: "/images/touxiang.jpg",
       yonghuming: "谁才是灰灰灰",
       jianjie: "简介：暂无简介",
+      miaosu: "\n\n\n分享图片——欢乐海岸",
+      pic1: "/images/huanlehaian.jpg",
+      },{
+      pic: "/images/a1.jpg",
+      yonghuming: "我才是灰灰灰",
+      jianjie: "简介：暂无简介",
+      miaosu: "\n\n\n分享图片——冰雪天地",
+      pic1: "/images/a2.jpg",
     },]
   },
 
